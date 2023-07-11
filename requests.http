@@ -6,6 +6,50 @@ content-type: application/json
     "password": "123456"
 }
 
+POST https://json-server-vercel-jade.vercel.app/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "grace.hopper@systers.xyz",
+    "password": "$2a$10$nb18RBeNh/0KufNu..sAXep3D7.nGay0uBcEae/BZP9fGp910Q/Xe"
+}
+
+
+POST https://json-server-vercel-jade.vercel.app/users HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+
+{
+    "email": "grace.hopper@systers.xyz",
+    "password": "123456",
+    "role": "admin"
+}
+
+POST https://json-server-vercel-jade.vercel.app/api/login HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+
+{
+    "email": "grace.hopper@systers.xyz",
+    "password": "123456"
+}
+
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+
+{
+    "email": "grace.hopper@systers.xyz",
+    "password": "123456",
+    "role": "admin"
+}
+
+
+DELETE  http://localhost:8080/orders/1 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4ODc2MTQ2MCwiZXhwIjoxNjg4NzY1MDYwLCJzdWIiOiIyIn0.QbuGrgaR-eAn6Pxhd1r8-970w8XLc-DEF4ucM6YT8HU
+
+
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8

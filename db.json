@@ -1,85 +1,203 @@
 {
   "orders": [
     {
-      "id": 1,
-      "userId": 1,
-      "client": "Jude Milhon",
+      "userId": ":r1:",
+      "client": "Marlen ",
       "products": [
         {
           "qty": 1,
           "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
+            "id": 9,
+            "name": "Combo simple 250cc",
+            "price": "2990",
+            "image": "https://user-images.githubusercontent.com/124700237/246950625-ac3ad6c1-af8c-4f04-b4b1-f660b686eaf7.png",
+            "type": "Almuerzo",
+            "dateEntry": "2023-06-19T23:14:52.083Z"
           }
         }
       ],
-      "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
+      "status": "deleted",
+      "dateEntry": "2023-07-07T20:36:13.775Z",
+      "id": 1,
+      "dateProcessed": "2023-07-07T23:10:51.038Z"
     },
     {
+      "userId": ":r1:",
+      "client": "Alejandro",
+      "products": [
+        {
+          "qty": 2,
+          "product": {
+            "id": 10,
+            "name": "Happy combo",
+            "price": "2500",
+            "image": "https://user-images.githubusercontent.com/124700237/246951282-fb17518e-6705-4ac3-962d-dabf7ffb6b2b.png",
+            "type": "Cena",
+            "dateEntry": "2023-06-19T23:21:25.964Z"
+          }
+        }
+      ],
+      "status": "deleted",
+      "dateEntry": "2023-07-07T20:40:21.006Z",
       "id": 2,
-      "userId": 2,
-      "client": "Katie Bouman",
+      "dateProcessed": "2023-07-07T23:11:39.843Z"
+    },
+    {
+      "userId": ":r1:",
+      "client": "Ramón",
+      "products": [
+        {
+          "qty": 2,
+          "product": {
+            "id": 1,
+            "name": "Sandwich de jamón y queso",
+            "price": "100",
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+            "type": "Desayuno",
+            "dateEntry": "2023-06-19T19:30:39.610Z"
+          }
+        },
+        {
+          "qty": 2,
+          "product": {
+            "id": 2,
+            "name": "Café americano",
+            "price": "500",
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+            "type": "Desayuno",
+            "dateEntry": "2023-06-19T18:49:27.156Z"
+          }
+        }
+      ],
+      "status": "deleted",
+      "dateEntry": "2023-07-07T23:12:15.973Z",
+      "id": 3,
+      "dateProcessed": "2023-07-07T23:15:56.417Z"
+    },
+    {
+      "userId": ":r1:",
+      "client": "Juanita ",
       "products": [
         {
           "qty": 2,
           "product": {
             "id": 2,
             "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+            "price": "500",
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
             "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
+            "dateEntry": "2023-06-19T18:49:27.156Z"
+          }
+        },
+        {
+          "qty": 2,
+          "product": {
+            "id": 4,
+            "name": "Hamburguesa Simple",
+            "price": "2000",
+            "image": "https://user-images.githubusercontent.com/124700237/246950934-0b8c5d6d-3855-4154-9e63-15a8be06bcb7.png",
+            "type": "Almuerzo",
+            "dateEntry": "2023-06-19T23:17:43.578Z"
           }
         },
         {
           "qty": 1,
           "product": {
-            "id": 3,
-            "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+            "id": 10,
+            "name": "Happy combo",
+            "price": "2500",
+            "image": "https://user-images.githubusercontent.com/124700237/246951282-fb17518e-6705-4ac3-962d-dabf7ffb6b2b.png",
+            "type": "Cena",
+            "dateEntry": "2023-06-19T23:21:25.964Z"
+          }
+        }
+      ],
+      "status": "deleted",
+      "dateEntry": "2023-07-07T23:14:46.550Z",
+      "id": 4,
+      "dateProcessed": "2023-07-10T18:33:22.103Z"
+    },
+    {
+      "userId": ":rb:",
+      "client": "Juan",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 9,
+            "name": "Combo simple 250cc",
+            "price": "2990",
+            "image": "https://user-images.githubusercontent.com/124700237/246950625-ac3ad6c1-af8c-4f04-b4b1-f660b686eaf7.png",
             "type": "Almuerzo",
-            "dateEntry": "2022-03-05 15:14:10"
+            "dateEntry": "2023-06-19T23:14:52.083Z"
           }
         }
       ],
       "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
+      "dateEntry": "2023-07-10T18:32:31.977Z",
+      "id": 5,
+      "dateProcessed": "2023-07-10T22:29:21.506Z"
+    },
+    {
+      "userId": ":rb:",
+      "client": "",
+      "products": [
+        {
+          "qty": 6,
+          "product": {
+            "id": 4,
+            "name": "Hamburguesa Simple",
+            "price": "2000",
+            "image": "https://user-images.githubusercontent.com/124700237/246950934-0b8c5d6d-3855-4154-9e63-15a8be06bcb7.png",
+            "type": "Almuerzo",
+            "dateEntry": "2023-06-19T23:17:43.578Z"
+          }
+        },
+        {
+          "qty": 4,
+          "product": {
+            "id": 6,
+            "name": "Bebida Coca Cola 250cc",
+            "price": "1300",
+            "image": "https://user-images.githubusercontent.com/124700237/246949965-4168595f-3fe3-481a-bdb8-3c0860b2f78c.png",
+            "type": "Almuerzo",
+            "dateEntry": "2023-06-19T23:04:19.049Z"
+          }
+        },
+        {
+          "qty": 4,
+          "product": {
+            "id": 11,
+            "name": "Jugo naranja natural",
+            "price": "1200",
+            "image": "https://user-images.githubusercontent.com/124700237/246951479-4c914ac1-8e86-422e-9dd5-04390ad5877f.png",
+            "type": "Desayuno",
+            "dateEntry": "2023-06-19T23:23:51.911Z"
+          }
+        }
+      ],
+      "status": "delivered",
+      "dateEntry": "2023-07-10T18:33:17.610Z",
+      "id": 6,
+      "dateProcessed": "2023-07-10T22:29:18.567Z"
     }
   ],
   "products": [
     {
       "id": 1,
       "name": "Sandwich de jamón y queso",
-      "price": 1000,
+      "price": "100",
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
       "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "dateEntry": "2023-06-19T19:30:39.610Z"
     },
     {
       "id": 2,
       "name": "Café americano",
-      "price": 500,
+      "price": "500",
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
       "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "dateEntry": "2023-06-19T18:49:27.156Z"
     },
     {
       "id": 3,
@@ -88,20 +206,136 @@
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "name": "Hamburguesa Simple",
+      "price": "2000",
+      "image": "https://user-images.githubusercontent.com/124700237/246950934-0b8c5d6d-3855-4154-9e63-15a8be06bcb7.png",
+      "type": "Almuerzo",
+      "dateEntry": "2023-06-19T23:17:43.578Z",
+      "id": 4
+    },
+    {
+      "name": "Papas Fritas",
+      "price": "1500",
+      "image": "https://user-images.githubusercontent.com/124700237/246950943-4c92d79a-d6d9-45a1-80ae-d9ee0365bb10.png",
+      "type": "Almuerzo",
+      "dateEntry": "2023-06-19T23:17:16.956Z",
+      "id": 5
+    },
+    {
+      "name": "Bebida Coca Cola 250cc",
+      "price": "1300",
+      "image": "https://user-images.githubusercontent.com/124700237/246949965-4168595f-3fe3-481a-bdb8-3c0860b2f78c.png",
+      "type": "Almuerzo",
+      "dateEntry": "2023-06-19T23:04:19.049Z",
+      "id": 6
+    },
+    {
+      "name": "Huevo frito",
+      "price": "1500",
+      "image": "https://user-images.githubusercontent.com/124700237/246950234-5609f622-5a06-411b-b910-0cae883e5354.png",
+      "type": "Desayuno",
+      "dateEntry": "2023-06-19T23:12:46.219Z",
+      "id": 7
+    },
+    {
+      "name": "Ensalada surtida con carbohidrato",
+      "price": "1600",
+      "image": "https://user-images.githubusercontent.com/124700237/246950238-e2300878-8c21-4b02-a058-8b2d25d1b4ae.png",
+      "type": "Cena",
+      "dateEntry": "2023-06-19T23:13:44.860Z",
+      "id": 8
+    },
+    {
+      "name": "Combo simple 250cc",
+      "price": "2990",
+      "image": "https://user-images.githubusercontent.com/124700237/246950625-ac3ad6c1-af8c-4f04-b4b1-f660b686eaf7.png",
+      "type": "Almuerzo",
+      "dateEntry": "2023-06-19T23:14:52.083Z",
+      "id": 9
+    },
+    {
+      "name": "Happy combo",
+      "price": "2500",
+      "image": "https://user-images.githubusercontent.com/124700237/246951282-fb17518e-6705-4ac3-962d-dabf7ffb6b2b.png",
+      "type": "Cena",
+      "dateEntry": "2023-06-19T23:21:25.964Z",
+      "id": 10
+    },
+    {
+      "name": "Jugo naranja natural",
+      "price": "1200",
+      "image": "https://user-images.githubusercontent.com/124700237/246951479-4c914ac1-8e86-422e-9dd5-04390ad5877f.png",
+      "type": "Desayuno",
+      "dateEntry": "2023-06-19T23:23:51.911Z",
+      "id": 11
+    },
+    {
+      "name": "Hamburguesa niña/o",
+      "price": "1300",
+      "image": "https://user-images.githubusercontent.com/124700237/246951675-a31826c5-4bff-41c1-a3e1-a7d828e377bf.png",
+      "type": "Almuerzo",
+      "dateEntry": "2023-06-19T23:26:20.521Z",
+      "id": 12
+    },
+    {
+      "name": "Ensalada Cesar",
+      "price": "2400",
+      "image": "https://user-images.githubusercontent.com/124700237/246951998-0b2a1301-bcfc-4a7c-bfa6-b58ecffdfc91.png",
+      "type": "Almuerzo",
+      "dateEntry": "2023-06-19T23:30:44.292Z",
+      "id": 13
+    },
+    {
+      "name": "Nuggets 6 unidades",
+      "price": "1600",
+      "image": "https://user-images.githubusercontent.com/124700237/246952333-30ddc685-80ee-40a8-905e-b005636d7412.png",
+      "type": "Almuerzo",
+      "dateEntry": "2023-06-19T23:35:23.502Z",
+      "id": 14
     }
   ],
   "users": [
     {
-      "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
+      "email": "fer.hopper@systers.xyz",
+      "password": "$2a$10$4W5E3SrKQH4w.WU4Z46aD.rxFfbqHum8/LB8eG8M8xsESH0l6NGDS",
       "role": "admin",
-      "id": 1
+      "id": 1,
+      "name": "Sandwich de jamón y queso",
+      "price": "1500",
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+      "type": "Desayuno",
+      "dateEntry": "2023-06-19T18:33:19.622Z"
     },
     {
       "email": "grace.hopper@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "password": "$2a$10$T4os0rxCaCa0JIPJqj/tVu.tCxDue11KhCZgT8ang0TM4HNXqfLD.",
       "role": "admin",
-      "id": 2
+      "id": 2,
+      "name": "Café americano",
+      "price": "50",
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+      "type": "Desayuno",
+      "dateEntry": "2023-06-19T18:39:45.269Z"
+    },
+    {
+      "email": "maria@falso.com",
+      "password": "$2a$10$nbW9si8FeEHUCYhXa690s.i4zLC.pBsUA/r5f9T8FLLkqGOMUlfPm",
+      "role": "chef",
+      "id": 5
+    },
+    {
+      "email": "alan@falso.com",
+      "password": "$2a$10$/n7ZePtH17NAwlg7t0/UBOfOKSJRIZJPKEsk3PqezS4VdAqlZW4wi",
+      "role": "waiter",
+      "id": 7
+    },
+    {
+      "email": "juanito@falso.com",
+      "password": "$2a$10$y0yFB9tfKzckLPn3SSAk3OZONDUx6hLiEdeqtfo8Ed41eph.oAKsy",
+      "role": "chef",
+      "id": 8
     }
   ]
 }
